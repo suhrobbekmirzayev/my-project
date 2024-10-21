@@ -37,6 +37,7 @@ img{
 }
 .nav_img{
   width: 250px;
+  margin-top: 10px;
 }
 ul{
   list-style: none;
@@ -70,8 +71,112 @@ ul{
 .nav_logo_img_btn p{
   color: blue;
   padding: 10px;
+  cursor: pointer;
 }
 .padd{
  height: 30px;
- background-color: blue;
+ background-color: #4ba9ff;
+}
+
+
+/* main parts */
+
+
+.main_input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_input{
+  width: 250px;
+  height: 33px;
+  padding: 10px 0px 8px 10px;
+}
+.main_input button{
+  width: 100px;
+ padding: 7px;
+ font-size: 16px;
+ color: white;
+ background-color: #4ba9ff;
+ border: none;
+}
+
+.main_section{
+  display: flex;
+  /* width: 100%; */
+  height: 60vh;
+  gap: 5%;
+  align-items: center;
+}
+
+.main_section_one{
+  width: 40%;
+  padding-top: 75px;
+}
+.main_section_one h1{
+  font-size: 50px;
+}
+
+.main_section_one_btn{
+  background-color: #e84f4f;
+  padding: 7px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.main_section_one_btn_2{
+  border: none;
+  background-color: white;
+  padding: 6px;
+}
+.main_section_imges{
+  width: 40%;
+ position: relative;
+}
+.main_section_imges_btns{
+ margin-top: 70px;
+ width: 300px;
+}
+.main_section_z_index{
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 350px;
+  right: 0;
+}
+.main_section_z_index button{
+  padding: 10px;
+  background-color: #4ba9ff;
+  color: black;
+  font-size: 20px;
+  border: none;
+  font-weight: bold;
+  width: 40px ;
+}
+.main_section_imges_numbers{
+  z-index: 2;
+  position: absolute;
+ top: 350px;
+  right: 0;
+  left: 300px;
+}
+.main_section_imges_numbers span{
+  font-size: 30px;
+  color: blue;
+}
+
+.main_buttons button{
+  margin-top: 70px;
+  padding: 20px;
+  width: 400px;
+  background-color: #4ba9ff;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+.main_buttons {
+  display: flex;
+  gap: 15px;
 }
