@@ -180,3 +180,117 @@ ul{
   display: flex;
   gap: 15px;
 }
+
+/* aside part */
+
+.aside{
+  display: flex;
+  margin-top: 15px;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.aside_text,
+.aside_imge{
+  width: 500px;
+}
+.aside_text{
+  font-size: 20px;
+  padding: 15px;
+}
+.aside_text h1{
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+.p_span{
+  background-color: #252B42;
+  color: white;
+}
+.aside_btn{
+  padding: 10px;
+  width: 150px;
+  margin-top: 10px;
+  color: black;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+/*  section   */
+
+
+.section_card_flex_element_button_img{
+  width: 25px;
+}
+.section_input_chack{
+  display: flex;
+  border: 2px solid black;
+  width: 220px;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.section_all button{
+  width: 150px;
+  padding: 10px;
+  background-color:#4ba9ff;
+  color: white;
+  border: none;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+.material-symbols-outlined{
+  cursor: pointer;
+  font-size: 25px;
+}
+.span_icon_style{
+  color: black;
+}
+
+.section_card_flex_element_img{
+  width: 150px;
+}
+.section_card_flex_element_img_text{
+  width: 150px;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+.section_card_flex_element{
+  border: 2px solid red;
+  width: 150px;
+}
+.section_card_flex_element_button{
+  display: flex;
+  justify-content: space-evenly;
+}
+.section_card_flex_element_button button{
+  width: 60px;
+  height: 25px;
+  border: none;
+  background-color: #4ba9ff;
+  color: white;
+}
+.section_flex{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 35px;
+}
+.section_card{
+  display: grid;
+  margin-top: 32px;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 25px;
+}
+.section_nuvbar{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.section_li > a:hover{
+background-color:#4ba9ff ;
+color: white;
+padding: 10px;
+}
