@@ -48,7 +48,20 @@ ul{
     color: black;
   } 
 }
-
+.Pro{
+  background-color: #4ba9ff;
+  padding: 10px;
+}
+.pro a{
+  color: white;
+}
+.asosiy{
+  background-color: #4ba9ff;
+  padding: 10px;
+}
+.asosiy a{
+  color: white;
+}
 .nav_logo_img{
   display: flex;
   align-items: center;
@@ -110,6 +123,13 @@ ul{
   align-items: center;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
 .main_section_one{
   width: 40%;
   padding-top: 75px;
@@ -132,18 +152,18 @@ ul{
   padding: 6px;
 }
 .main_section_imges{
-  width: 40%;
+  width: 600px;
  position: relative;
 }
 .main_section_imges_btns{
  margin-top: 70px;
- width: 300px;
+ width: 450px;
 }
 .main_section_z_index{
   z-index: 2;
   position: absolute;
-  left: 0;
-  top: 350px;
+  left:0;
+  top: 450px;
   right: 0;
 }
 .main_section_z_index button{
@@ -158,7 +178,7 @@ ul{
 .main_section_imges_numbers{
   z-index: 2;
   position: absolute;
- top: 350px;
+  top: 450px;
   right: 0;
   left: 300px;
 }
@@ -166,7 +186,9 @@ ul{
   font-size: 30px;
   color: blue;
 }
-
+.nav_logo_img_btn i{
+  font-size: 25px;
+}
 .main_buttons button{
   margin-top: 70px;
   padding: 20px;
@@ -249,6 +271,7 @@ ul{
   color: black;
 }
 
+
 .section_card_flex_element_img{
   width: 150px;
 }
@@ -259,12 +282,16 @@ ul{
   margin-bottom: 8px;
 }
 .section_card_flex_element{
-  border: 2px solid red;
-  width: 150px;
+  border: 2px solid gray;
+  width: 180px;
+  /* box-shadow: 10px 10px 10px 10px rgb(67, 65, 65); */
 }
 .section_card_flex_element_button{
   display: flex;
   justify-content: space-evenly;
+}
+.section_input_chack i{
+  font-size: 25px;
 }
 .section_card_flex_element_button button{
   width: 60px;
@@ -293,4 +320,97 @@ ul{
 background-color:#4ba9ff ;
 color: white;
 padding: 10px;
+}
+
+/* footer part */
+.footer{
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+  /* height: 400px; */
+  background-color: #f5f5f5;
+}
+.footer_contact h1{
+  padding-top: 15px;
+}
+.footer_asosiy h1{
+ padding-top: 15px;
+}
+.footer_Akount{
+ padding-top: 15px;
+
+}
+.footer_img_img{
+  width: 250px;
+}
+
+
+/* secont html styles  */
+
+/*  sorov input */
+.sorov_input input{
+ padding: 15px;
+ width: 350px;
+ margin: 10px;
+}
+.sorov_h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sorov{
+  margin-top: 25px;
+}
+
+.inamarka_input{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+ margin-bottom: 10px;
+  gap: 10px;
+  margin-top: 10px;
+}
+.inamarka_input input{
+  width: 350px;
+  padding: 15px;
+}
+.qisimlar_input{
+   margin-top: 15px;
+   text-align: center;
+}
+.qisimlar_input input{
+width: 60%;
+padding: 15px;
+margin-bottom: 10px;
+}
+.qisimlar_input button{
+  width: 150px;
+  padding: 10px;
+  background-color: orangered;
+  color: white;
+  border: none;
+}
+.muttom{
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.logo_page{
+  margin-top: 25px;
+}
+
+
+.email_page input{
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  
+}
+.email_page_button button{
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: 0;
+  width: 90px;
+}
+.page_centor{
+  text-align: center;
 }
